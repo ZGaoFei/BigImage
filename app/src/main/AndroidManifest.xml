@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".gesturedetector.ScaleGestureDetectorActivity"></activity>
+        <activity android:name=".bigimage.BigImageActivity"></activity>
+        <activity android:name=".matrix.MatrixActivity" />
+        <activity android:name=".gesturedetector.ScaleGestureDetectorActivity" />
         <activity android:name=".gesturedetector.GestureDetectorActivity" />
         <activity android:name=".bitmapfactory.BitmapFactoryActivity" />
         <activity android:name=".MainActivity">

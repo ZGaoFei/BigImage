@@ -7,9 +7,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
+import com.zgf.bigimage.bigimage.BigImageActivity;
 import com.zgf.bigimage.bitmapfactory.BitmapFactoryActivity;
 import com.zgf.bigimage.gesturedetector.GestureDetectorActivity;
 import com.zgf.bigimage.gesturedetector.ScaleGestureDetectorActivity;
+import com.zgf.bigimage.matrix.MatrixActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Context context;
@@ -48,14 +50,14 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.tv_matrix).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toastShow("Matrix");
+                MatrixActivity.start(context);
             }
         });
 
         findViewById(R.id.tv_big_image).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                toastShow("Big image");
+                BigImageActivity.start(context);
             }
         });
     }
