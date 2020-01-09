@@ -28,11 +28,14 @@ public class BigImageActivity extends AppCompatActivity {
     }
 
     private void initView() {
-        MyBigView bigView = findViewById(R.id.big_image);
+//        BigViewCopy bigView = findViewById(R.id.big_image_copy);
+        BigViewCopyCopy bigView = findViewById(R.id.big_image_copy);
+//        MyBigView bigView = findViewById(R.id.big_image);
         AssetManager assets = getAssets();
         try {
             InputStream inputStream = assets.open("qmsht.png"); // 注意assets文件的位置
-            bigView.setImage(inputStream);
+            bigView.setImageInputStream(inputStream);
+//            bigView.setImage(inputStream);
         } catch (IOException e) {
             e.printStackTrace();
         }

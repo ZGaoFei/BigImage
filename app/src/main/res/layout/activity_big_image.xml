@@ -6,8 +6,18 @@
     android:layout_height="match_parent"
     tools:context=".bigimage.BigImageActivity">
 
-    <com.zgf.bigimage.bigimage.MyBigView
-        android:id="@+id/big_image"
+<!--    <com.zgf.bigimage.bigimage.MyBigView-->
+<!--        android:id="@+id/big_image"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+<!--    <com.zgf.bigimage.bigimage.BigViewCopy-->
+<!--        android:id="@+id/big_image_copy"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"/>-->
+
+    <com.zgf.bigimage.bigimage.BigViewCopyCopy
+        android:id="@+id/big_image_copy"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
